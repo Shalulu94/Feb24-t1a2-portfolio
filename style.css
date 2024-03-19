@@ -14,7 +14,7 @@
 
 body {
     margin: 0%;
-    background-color: var(--alabaster);
+    background-color: var(--dun)
 }
 
 header {
@@ -28,7 +28,6 @@ header {
 
 main {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 85dvh;
@@ -37,15 +36,39 @@ main {
 }
 
 .column {
-    display: flex;
-    flex-direction: column;
+    width: 15dvw;
+    color: var(--dun);
+    text-align: center;
+    text-wrap: wrap;
+    border: solid;
 
 }
+
+#middle {
+    border: solid;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    width: 70dvw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+}
+
 
 
 footer {
     display: flex;
-    background-color: var(--dun);
+    background-color: var(--battleship-gray);
     height: 5dvh;
     width: 100%;
     justify-content: start;
