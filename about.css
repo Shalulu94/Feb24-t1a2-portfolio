@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    
+
+    
+}
+
+.bignav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25dvw;
+    border: solid;
+    row-gap: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 25px;
+    margin-left: 1em;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 65dvw;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+
+}
+
+.mininav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    justify-content: space-around;
+    border: solid;
+    
+}
