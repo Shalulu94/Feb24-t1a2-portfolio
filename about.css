@@ -1,10 +1,7 @@
 main {
     display: flex;
     justify-content: start;
-    flex-wrap: wrap;
-    
-
-    
+    flex-wrap: wrap;       
 }
 
 .bignav {
@@ -29,6 +26,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-left: 1em;
+    row-gap: 3em;
 
 }
 
@@ -40,4 +38,9 @@ main {
     justify-content: space-around;
     border: solid;
     
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 1em;
 }
