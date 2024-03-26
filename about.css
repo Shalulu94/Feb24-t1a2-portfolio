@@ -18,6 +18,7 @@ main {
     margin: 1em;
     text-decoration: none;
     color: black;
+    background-color: var(--battleship-gray);
 }
 
 .logo {

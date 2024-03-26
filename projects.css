@@ -1,0 +1,13 @@
+main {
+    align-items: start;
+    flex-wrap: wrap;
+    
+}
+
+.projects {
+    margin: 2em;
+    height: 300px;
+    width: 400px;
+    border: solid;
+}
+
