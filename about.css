@@ -1,22 +1,31 @@
 main {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;       
 }
 
 .bignav {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 25dvw;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
     border: solid;
-    row-gap: 1em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    border-radius: 25px;
-    margin-left: 1em;
+    text-align: center;
+    align-items: center;
 }
+
+.bignav > a {
+    margin: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 250px;
+    height: 100%;
+    border: solid;
+}
+
 
 .about {
     display: flex;
@@ -28,6 +37,12 @@ main {
     margin-left: 1em;
     row-gap: 3em;
 
+}
+
+.img {
+    width: 40dvw;
+    height: 30dvh;
+    border: solid;
 }
 
 .mininav {
