@@ -82,7 +82,7 @@ a:hover {
     padding: 1.3em 4em;
     font-size: larger; */
     transition: 1s;
-    transform: scale(1.3);
+    transform: scale(1.2);
     background-color: var(--khaki);
     
 }
