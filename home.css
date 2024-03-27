@@ -30,8 +30,9 @@
 }
 
 img {
-    height: 300px;
+    height: 350px;
     width: 40dvw;
+    max-width: 300px;
     border-radius: 50%;
 }
 
