@@ -11,44 +11,57 @@
 <body>
 
     <header>
-        <section class="logo">
-            Logo banner goes here
-        </section>
+        <div class="logo">
+            <a href="index.html">
+                <img class="logo-img"src="./Pictures/logov3.jpeg" alt="Shaz Web Design Logo">
+            </a>
+        </div>
+
+        <input type="checkbox" id="nav_check" hidden>
 
         <nav class="bignav">
-            <a href="about-background.html">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Get in Touch</a>
+            
+            <ul class="menu">
+                <li><a href="about-background.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Get in Touch</a></li>
+            </ul>
 
         </nav>
 
+        <!-- Html to create a navigation bar icon -->
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
 
     </header>
+    
 
     <main>
         
-
         <section class="about">
-            <img src="#" alt="Image of me">
+            <img src="#" id="selfie" alt="Image of me">
             
             <nav class="mininav">
                 <a href="./about-background.html">Background</a>
+                <p>|</p>
                 <a href="./about-hobby.html">Hobbies</a>
+                <p>|</p>
                 <a href="./about-experience.html">Experience</a>
             </nav>
 
             <section class="description">
-                I enjoy snowboarding and cycling. I also enjoy gaming
+                My name is shahrul
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius a cum, enim fugit repellat accusamus dolore possimus omnis molestias veritatis suscipit, placeat vel sequi. Ipsam recusandae est explicabo hic illum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id illo nisi voluptatibus, maiores beatae iure quisquam nulla, quo consequatur unde numquam corporis dolorem alias odit dicta quis? Dignissimos, deserunt similique!Lorem
             </section>
 
         </section>
 
     </main>
-    
-
-
-
 
     <footer>
         Copywright. created by Shahrul

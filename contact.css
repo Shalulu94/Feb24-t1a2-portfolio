@@ -1,0 +1,10 @@
+main {
+    display: flex;
+    height: 84dvh;
+    
+}
+
+main section {
+    border: solid;
+    width: 100%;
+}

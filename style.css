@@ -19,6 +19,8 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: sans-serif;
+    color: black;
     /* box-sizing: border-box; */
 }
 
@@ -30,15 +32,8 @@ body {
     background-color: var(--dun);
 }
 
-
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 84dvh;
-    flex-wrap: wrap;
-  
+    min-height: 79dvh;
 }
 
 header {
@@ -53,13 +48,11 @@ header {
 footer {
     display: flex;
     justify-content: start;
+    align-items: center;
     background-color: var(--battleship-gray);
     height: 4dvh;
     width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-    
+        
 
 }
 
@@ -109,7 +102,7 @@ footer {
 
 @media screen and (max-width: 700px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .hamburger {
@@ -119,7 +112,7 @@ footer {
     header nav {
         display: none;
         position: absolute;
-        left: -150%;
+        left: -200%;
         top: 12dvh;
         width: 100%;
         padding: 15px;

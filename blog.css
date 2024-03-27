@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+}
+
+.Blog {
+    margin: 1em;
+    height: 300px;
+    width: 400px;
+    border: solid;
+    border-radius: 20px;
+    
+}
+
