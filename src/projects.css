@@ -17,7 +17,7 @@ main {
     width: 400px;
     border: solid;
     border-radius: 20px;
-    background-color: var(--powder-blue);
+    background-color: var(--lavendar-blush);
     row-gap: 0.5em;
     /* box-shadow: 5px 2px 10px; */
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -51,7 +51,6 @@ article {
     display: flex;
     height: 100%;
     text-align: center;
-    align-items: st;
     justify-content: center;
     text-wrap: wrap;
 }

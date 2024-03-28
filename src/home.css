@@ -10,7 +10,16 @@
     --ruddy-blue: #7da8d7ff;
     --powder-blue: #96b6daff;
     --logo-colour: #E0DED1;
+    --taupe: #3f3931ff;
+    --home: #ECE1E1;
+    --mimi-pink: #ECD0E1;
+    --lavendar-blush: #ECDBE1;
     margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    color: var(--taupe);
     padding: 0;
     box-sizing: border-box;
 }
@@ -83,7 +92,7 @@ a:hover {
     font-size: larger; */
     transition: 1s;
     transform: scale(1.2);
-    background-color: var(--khaki);
+    background-color: var(--home);
     
 }
 

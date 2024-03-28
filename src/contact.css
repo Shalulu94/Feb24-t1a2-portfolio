@@ -1,27 +1,48 @@
 main {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main div{
+    display: flex;
     flex-direction: column;
  
+}
+
+.container {
+    display: flex;
+    width: 45dvw;
+    margin-top: 12em;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
     
+}
+
+.selfie {
+    height: 40dvh;
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h2 {
     text-decoration: underline;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 section {
-    padding: 2em;
+    padding: 0.5em;
 }
 
 main section ul {
     padding: 1em;
     
-}
-
-main section ul li {
-    margin-top: 1.5em;
 }
 
 p {
@@ -35,12 +56,33 @@ p {
 }
 
 .icon {
-    height: 35px;
+    height: 30px;
     opacity: 0.5;
+    padding-top: 1em;
 }
 
 .icon:hover {
     opacity: 1;
     transform: scale(1.1);
     transition: .5s;
+}
+
+@media screen and (max-width: 700px) {
+    main section ul {
+        padding: 0;
+    }
+
+    .icon {
+        margin-top: 1em;
+        padding: 0;
+        height: 25px;
+       
+    }
+
+    .container {
+        width: 80dvw;
+        text-align: center;
+        margin: 0;
+    }
+    
 }

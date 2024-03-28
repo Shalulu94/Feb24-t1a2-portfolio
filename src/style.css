@@ -25,6 +25,8 @@
     list-style: none;
     font-family: sans-serif;
     color: var(--taupe);
+    animation: fadeIn;
+    animation-duration: 0.3s;
 
         
 
@@ -119,6 +121,10 @@ footer {
     background-color: black;
 }
 
+img {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
 @media screen and (max-width: 700px) {
     body {
         overflow-x: hidden;
