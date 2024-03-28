@@ -13,7 +13,6 @@ main {
     display: flex;
     flex-direction: column;
     width: 65dvw;
-    border: solid;
     justify-content: center;
     align-items: center;
     row-gap: 2em;
@@ -21,9 +20,8 @@ main {
 }
 
 #selfie {
-    width: 250px;
+    width: 280px;
     height: 40dvh;
-    border: solid;
     border-radius: 20px;
 }
 
