@@ -43,9 +43,9 @@ main {
     width: 100%;
 }
 
-h3 {
+/* h3 {
     text-decoration: underline;
-}
+} */
 
 article {
     display: flex;
