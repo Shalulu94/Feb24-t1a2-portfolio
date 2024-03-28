@@ -1,10 +1,46 @@
 main {
     display: flex;
-    height: 84dvh;
+    flex-direction: column;
+ 
     
 }
 
-main section {
-    border: solid;
-    width: 100%;
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+section {
+    padding: 2em;
+}
+
+main section ul {
+    padding: 1em;
+    
+}
+
+main section ul li {
+    margin-top: 1.5em;
+}
+
+p {
+    visibility: hidden;
+
+}
+
+.icon:hover ~ p {
+    visibility: visible;
+
+}
+
+.icon {
+    height: 35px;
+    opacity: 0.5;
+}
+
+.icon:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .5s;
 }

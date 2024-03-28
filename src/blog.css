@@ -39,12 +39,9 @@ article {
 }
 
 .right {
-    background-color: var(--ruddy-blue);
+    background-color: var(--lavendar-blush);
   }
 
-.left {
-    background-color: var(--powder-blue);
-  }
 
 p {
     text-align: center;
