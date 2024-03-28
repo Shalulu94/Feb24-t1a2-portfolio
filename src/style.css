@@ -25,11 +25,6 @@
     list-style: none;
     font-family: sans-serif;
     color: var(--taupe);
-    animation: fadeIn;
-    animation-duration: 0.3s;
-
-        
-
     /* box-sizing: border-box; */
 }
 
@@ -39,10 +34,13 @@ body {
     flex-direction: column;
     margin: 0;
     background-color: var(--home);
+
 }
 
 main {
     min-height: 83dvh;
+    animation: fadeIn;
+    animation-duration: 0.3s;
 }
 
 header {
