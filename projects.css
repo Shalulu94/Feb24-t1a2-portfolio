@@ -25,11 +25,17 @@ main {
     
 }
 
+
 .projects img {
     height: 100%;
     width: 100%;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
+}
+
+.projects:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .projects a {

@@ -3,7 +3,7 @@ main {
     justify-content: center;
     align-items: start;
     width: 100%;
-    min-height: 81dvh;
+    min-height: 79dvh;
     flex-wrap: wrap;
     margin-top: 5dvh;
   
@@ -19,10 +19,11 @@ main {
 
 }
 
-#selfie {
+#photo {
     width: 280px;
     height: 40dvh;
     border-radius: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .mininav {
@@ -38,6 +39,12 @@ main {
 
 .mininav > a {
     margin: 0.5em;
+}
+
+.mininav > a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 .description {
