@@ -10,11 +10,41 @@ main {
 }
 
 .projects {
-    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
     height: 300px;
     width: 400px;
     border: solid;
     border-radius: 20px;
+    background-color: var(--powder-blue);
+    row-gap: 0.5em;
     
+    
+}
+
+.projects img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.projects a {
+    height: 65%;
+    width: 100%;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+article {
+    display: flex;
+    height: 100%;
+    text-align: center;
+    align-items: st;
+    justify-content: center;
+    text-wrap: wrap;
 }
 
