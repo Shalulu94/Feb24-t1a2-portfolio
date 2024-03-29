@@ -44,11 +44,20 @@ The creation of the sitemap was the first step of my website development. It all
 
 ## Wireframing - Figma
 
-The second step in my development process was wireframing and designing all of the necessary page themes. I would consider my wireframes to be low fidelity, however in order to make it easier for me to visualise how certain elements change depending on desktop/mobile view, I've utilised colours for the specific elements.
+The second step in my development process was wireframing and designing all of the necessary page themes. I would consider my wireframes to be low fidelity, however in order to make it easier for me to visualise how certain elements change depending on desktop/mobile view, I've utilised colours for the specific elements. As wireframing was the initial design phase, some elements on the pages changed when I started properly coding it. Reasons for these included changed of thought, new design elements or limitations of functionality. 
+
+**Understanding the Wireframe elements:**
+
+- **Pink** - Represents a picture or photo
+- **Grey** - Represents text
+- **Red** - Represents the page header
+- **Green** - Represents the main navigation bar
+- **Blue** - Represents mini navigation bar
+- **Orange** - Represents the page footer
 
 ### Homepage
 
-The homepage was a simple landing page and was intended to not include a lot of overwhelming features or information. Originally this was designed to include a photo of myself on the homepage with a brief description. During the actual design process, I experimented using my self-made website logo which i thought better suited as a landing page. 
+The homepage was a simple landing page and was intended to not include a lot of overwhelming features or information. Originally this was designed to include a photo of myself on the homepage with a brief description. During the actual coding process, I experimented using my self-made website logo which i thought better suited as a landing page. 
 
 ![Homepage wireframe](./Docs/Wireframes/Homepage.PNG)
 
@@ -56,9 +65,23 @@ The homepage was a simple landing page and was intended to not include a lot of 
 
 **Final product**
 
-![Screenshot of finiahsed homepage](./Docs/Screenshots/Homepage.PNG)
+![Screenshot of finished homepage](./Docs/Screenshots/Homepage.PNG)
 
 ![Screenshot of finished homepage-mobile](./Docs/Screenshots/Homepage-Mobile.PNG)
+
+### About me
+
+The About me page consists of 3 separate pages with the same layout. As per the sitemap, I have included a mini navbar specific to the about me pages and allowing transition between the Background, Hobby and Experience pages. I have designed it this way to ensure minimal clutter and minimised scrolling for the user. If I had all of this information on a single page including the photos, then the users will need to be scrolling down a lot especially on a mobile which was not my intention. 
+
+![About me page wireframe](./Docs/Wireframes/Aboutme.PNG)
+
+![About me page wireframe - mobile](./Docs/Wireframes/Aboutme-mobile.PNG)
+
+**Final product**
+
+![Screenshot of finished About me page](./Docs/Screenshots/Aboutme-Background.PNG)
+
+![Screenshot of finished About me page - mobile](./Docs/Screenshots/Aboutme-Background-mobile.PNG)
 
 
 
