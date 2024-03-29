@@ -34,6 +34,12 @@ My website is designed to be simple and minimalistic, displaying all the relevan
     - **GitHub** - Version control
     - **Netlify** - Deployment
 
+## Target Audience
+
+My target audience for this portfolio website would be potential employers or recruiters seeking to get a better understanding of my experience, skills and past projects. As I am targeting potential employers, language and formatting is important to ensure that my website is refined and professional to give a good first impression. 
+
+This page will be a continuous work in progress and I will constantly update as I develop new skills throughout the course. 
+
 ## Sitemap
 
 Please see below my Sitemap. Each page is interlinked with each other allowing user to navigate between every page from any page. Only exception is the Homepage which is used more as a landing page before users enter into main content. 
@@ -93,8 +99,62 @@ The About me page consists of 3 separate pages with the same layout. As per the 
 
 ### Projects
 
+This page has been designed as a page to quickly showcase all of my current and future projects. Each card represents a separate project and when active should take the user to the respective project page. At the moment, I currently only have a web portfolio project which is completed, but as other projects come online, the other cards will become active. I have kept the final product aligned with the wireframes and added some additional design effects such as shadows and pseudo-class elements. 
 
+![projects page wireframe](./Docs/Wireframes/Projects.PNG)
 
+![projects page wireframe - mobile](./Docs/Wireframes/Projects-mobile.PNG)
 
+**Final Product**
+
+![screenshots of finished projects page](./Docs/Screenshots/projects.PNG)
+
+![screenshots of finished projects page-mobile](./Docs/Screenshots/projects-mobile.PNG)
+
+![screenshots of finished projects page-mobile](./Docs/Screenshots/projects-mobile-2.PNG)
+
+![screenshots of finished projects page-mobile](./Docs/Screenshots/projects-mobile-3.PNG)
+
+### Blog
+
+The blog posts have similar functionality to the projects cards and I originally thought to use the same design for both pages. However, in order to challenge myself and fully utilise the capabilities of flexbox, I decided to switch up the design and have images side by side with text and alternate the direction with each post. 
+
+For this, i was required to use columns as the flexbox direction compared to standard flexbox in the projects page which would also automatically adjust based on different viewing ports. This required additional CSS and breakpoint management to ensure the blog posts stacked up correctly on mobile devices. 
+
+![blog page wireframe](./Docs/Wireframes/Blog.PNG)
+
+![blog page wireframe - mobile](./Docs/Wireframes/Blog-mobile.PNG)
+
+**Final Product**
+
+![screenshots of finished blogs page](./Docs/Screenshots/blog.PNG)
+
+![screenshots of finished blogs page](./Docs/Screenshots/blog2.PNG)
+
+![screenshots of finished blogs page](./Docs/Screenshots/blog3.PNG)
+
+![screenshots of finished blogs page - mobile](./Docs/Screenshots/blog-mobile.PNG)
+
+![screenshots of finished blogs page - mobile](./Docs/Screenshots/blog-mobile2.PNG)
+
+![screenshots of finished blogs page - mobile](./Docs/Screenshots/blog-mobile3.PNG)
+
+### Contact
+
+The contact page is what is used for potential employers to connect via socials or contact me directly. This section has had some deviation from the original wireframes which included a form where users could enter their details plus some comments to allow me to get back to them in time. 
+
+However, building a functional form requires some Javascript to be included which we have not yet covered and I did not want to include sections that do not work in my website. I decided to switch this out with a static photo instead, but will keep the wireframe as inspiration going forward once I develop the skills necessary to include a functioning form. 
+
+This page also includes external links to my socials and a mail:to function to email me directly.
+
+![contact page wireframes](./Docs/Wireframes/Contact.PNG)
+
+![contact page wireframes - mobile](./Docs/Wireframes/Contact-mobile.PNG)
+
+**Final Product**
+
+![screenshots of finished contact page](./Docs/Screenshots/connect.PNG)
+
+![screenshots of finished contact page - mobile](./Docs/Screenshots/connect-mobile.PNG)
 
 
