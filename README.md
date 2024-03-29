@@ -83,6 +83,16 @@ The About me page consists of 3 separate pages with the same layout. As per the 
 
 ![Screenshot of finished About me page - mobile](./Docs/Screenshots/Aboutme-Background-mobile.PNG)
 
+![screenshot of finished about me page hobby](./Docs/Screenshots/Aboutme-Hobby.PNG)
+
+![screenshot of finished about me page hobby - mobile](./Docs/Screenshots/Aboutme-Hobby-mobile.PNG)
+
+![screenshots of finished about me page experience](./Docs/Screenshots/Aboutme-experience.PNG)
+
+![screenshots of finished about me page experience - mobile](./Docs/Screenshots/Aboutme-experience-mobile.PNG)
+
+### Projects
+
 
 
 
