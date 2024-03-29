@@ -44,7 +44,7 @@ This page will be a continuous work in progress and I will constantly update as 
 
 Please see below my Sitemap. Each page is interlinked with each other allowing user to navigate between every page from any page. Only exception is the Homepage which is used more as a landing page before users enter into main content. 
 
-![Insert of my sitemap](./Docs/Site_Map.jpg)
+![Insert of my sitemap](./Docs/Wireframes/Site_Map.png)
 
 The creation of the sitemap was the first step of my website development. It allowed me to visualise the amount of pages necessary, how I wanted to split the information across different pages and the navigation links required. Given the idea is that each main page would have it's own theme, it also gave me an indication of how many page templates i needed to create during the wireframing process.
 
