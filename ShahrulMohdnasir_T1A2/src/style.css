@@ -1,0 +1,165 @@
+/* 
+    This CSS page contains the code for the baseline theme to be utilised across all pages
+    Includes colour palette, base formatting, header, footer and nav bar
+*/
+
+* {
+    --khaki: #ac9e89ff;
+    --alabaster: #e1ded2ff;
+    --dun: #ccbaa6ff;
+    --battleship-gray: #857c73ff;
+    --silver-lake-blue: #698fc5ff;
+    --taupe: #3f3931ff;
+    --walnut-brown: #63564bff;
+    --blue-gray: #709acfff;
+    --ruddy-blue: #7da8d7ff;
+    --powder-blue: #96b6daff;
+    --logo-colour: #E0DED1;
+    --taupe: #3f3931ff;
+    --home: #ECE1E1;
+    --mimi-pink: #ECD0E1;
+    --lavendar-blush: #ECDBE1;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    color: var(--taupe);
+    /* box-sizing: border-box; */
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: var(--home);
+    overflow-x: hidden;
+
+}
+
+main {
+    min-height: 83dvh;
+    animation: fadeIn;
+    animation-duration: 0.3s;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 12dvh;
+    background-color: var(--logo-colour);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--logo-colour);
+    height: 5dvh;
+    width: 100%;
+    border-top: solid 1px;
+    font-style: italic;
+    font-size: small;    
+    padding-left: 1em;    
+
+}
+
+.bignav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    display: inline-block;
+    color: black;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: 3px solid transparent;
+    font-weight: bold;
+    
+    /* text-transform: uppercase; */
+}
+
+.menu li a:hover {
+   border-bottom-color: var(--khaki);
+}
+
+.logo a img {
+    display: block;
+    width: 70%;
+    height: 4dvh;
+    margin-left: 40px;
+    
+}
+
+.logo a img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+    padding: 0 25px;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: black;
+}
+
+img {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+@media screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+        position: absolute;
+        left: -200%;
+        top: 12dvh;
+        width: 100%;
+        padding: 15px;
+        transition: 0.5s;
+        background-color: var(--logo-colour);
+    }
+
+    header #nav_check:checked ~ nav{
+        left: 0;
+        border: solid 1px;
+
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        margin: 5px 0;
+        font-size: small;
+
+    }
+
+}
+
+

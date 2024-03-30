@@ -1,0 +1,44 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em;
+    text-align: center;
+   
+}
+
+main section div {
+    justify-content: center;
+    align-items: center;
+   
+ }
+
+article {
+    padding: 2em;
+}
+
+p {
+    padding-top: 2em;
+}
+
+main section div img {
+    width: 60dvw;
+    height: 30dvh;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+@media screen and (max-width: 700px) {
+    main section div img {
+        height: 30dvh;
+        min-width: 300px;
+    
+    }
+
+    section {
+        padding: 1em;
+    }
+    
+}
