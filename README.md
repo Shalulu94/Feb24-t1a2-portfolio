@@ -9,6 +9,7 @@ I have designed my website to act as a platform to showcase my coding and develo
 - [Portfolio Website](https://shahrulwd.netlify.app/)
 - [Github Repository](https://github.com/Shalulu94/Feb24-t1a2-portfolio/tree/main)
 - [LinkedIn](https://www.linkedin.com/in/shahrul-nasir-a7308b122/)
+- [Video Presentation Upload](https://youtu.be/efTjXanyzZM)
 
 
 ## **Features and Functionality**
